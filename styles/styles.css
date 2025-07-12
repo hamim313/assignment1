@@ -77,3 +77,34 @@ header nav h2{
     height: 328px;
     border-radius: 48px;
 }
+
+.user-review{
+    margin: 0 141px;
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 24px;
+}
+
+.user-review h3{
+    padding-top: 50px;
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.user-review-num{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 142px;
+}
+
+.users-num .main-text{
+    font-size: 60px;
+    font-weight: bold;
+    color: #4E47FF;
+    margin-bottom: 0px;
+}
+
+.users-num p{
+    font-size: 20px;
+    color: rgba(37, 36, 50, 0.5);
+}
