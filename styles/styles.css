@@ -119,6 +119,7 @@ header nav h2{
     justify-content: flex-start;
     align-items: center;
     background-color: white;
+    border-radius: 14px;
 }
 
 .focus-div .bolded-text{
@@ -144,4 +145,44 @@ header nav h2{
     height: 364.77px;
     border-radius: 48px;
     margin-bottom: 71px;
+}
+
+.info-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 150px;
+    align-items: center;
+}
+
+.info-section p{
+    font-size: 97px;
+    font-weight: bold;
+}
+
+.info{
+    width: 497px;
+}
+
+.info-section .info label{
+    display: block;
+    margin: 10px 0px;
+    font-weight: bold;
+}
+
+.info-section .info input {
+    width: 100%;      
+    padding: 20px;
+    font-size: 16px;
+    box-sizing: border-box;
+    height: 70px;
+    border-radius: 10px;
+}
+
+#text{
+    height: 135px;
+}
+
+.info-section .info button{
+    width: 100%;
+    margin-top: 20px;
 }
